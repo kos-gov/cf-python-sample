@@ -1,0 +1,11 @@
+---
+applications:
+- name: cf-python
+  memory: 128M
+  disk_quota: 256MB
+  instances: 1
+  random-route: true
+  buildpack: python_buildpack
+  command: bash ./run.sh
+
+
